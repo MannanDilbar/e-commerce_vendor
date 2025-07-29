@@ -1,0 +1,12 @@
+
+
+.err{
+    display: block;
+    margin-top: -20px;
+        padding-left: 5px;
+        color: red;
+}
+.valid{
+    display: none;
+   
+}

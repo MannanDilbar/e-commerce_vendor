@@ -1,0 +1,30 @@
+.err {
+    visibility: visible;
+    margin-top: -27px;
+    margin-bottom: 7px;
+    padding-left: 5px;
+    color: red;
+    font-size: 12px;
+
+}
+
+.valid {
+    visibility: hidden;
+    margin-top: -27px;
+    margin-bottom: 7px;
+    padding-left: 5px;
+    color: red;
+    font-size: 12px;
+}
+
+.visible1 {
+    visibility: visible;
+}
+
+.hidden1 {
+    visibility: hidden;
+}
+
+/* body{
+word-break: break-word; 
+} */

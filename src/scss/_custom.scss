@@ -1,0 +1,41 @@
+$--cui-primary: rgb(111, 152, 241);
+
+.sidebar-nav {
+  background-color: #F9FAFB; // Light background
+
+  .nav-group {
+    &.show {
+      .nav-group-toggle {
+        color: rgb(111, 152, 241); // Toggle icon color (blue)
+        font-size: 24px;
+      }
+    }
+  }
+
+  .nav-link {
+    color: #334155; // Default slate color
+    font-size: 16px;
+    margin-left: 15px;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: rgb(111, 152, 241); // Bright blue on hover
+      font-size: 17px;
+      font-weight: 500;
+    }
+
+    &.active {
+      color: #1D4ED8; // Deeper blue
+      font-weight: 600;
+      background-color: #E2E8F0; // Highlight active section
+      border-radius: 6px;
+      padding-left: 10px;
+    }
+  }
+
+  .nav-group-toggle {
+    color: rgb(111, 152, 241);
+    font-size: 20px;
+    margin-left: -10px;
+  }
+}
