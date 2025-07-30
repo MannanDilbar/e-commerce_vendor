@@ -18,7 +18,7 @@ import {
   CInputGroup, CInputGroupText,
   CTooltip
 } from '@coreui/react'
-import { cilFilter, cilPen, cilPlus } from '@coreui/icons'
+import { cilFilter, cilPen, cilPlus, cilTag } from '@coreui/icons'
 import CIcon from '@coreui/icons-react'
 import useAuth from "../../hooks/useAuth";
 import axios from '../../axios';
@@ -85,10 +85,14 @@ const SuggestedProducts = () => {
             <CCardHeader>
               <CButton color={colors2[3]} style={{ borderRadius: "50%" }}
                 onClick={(e) => navigate('/AddSuggestProduct')}>
-                <CTooltip content="Add New Suggesion Items">
-                  <CIcon icon={cilPlus} />
-                </CTooltip>
+                <CIcon icon={cilPlus} />
               </CButton>
+              <CTooltip content="Add New Suggesion Items">
+               
+
+                  <CIcon icon={cilTag} style={{ borderRadius: "50%", maxWidth: '15px', marginLeft:'10px'}} />
+
+                </CTooltip>
             </CCardHeader>
           </CCard>
 

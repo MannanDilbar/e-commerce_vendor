@@ -141,7 +141,7 @@ setOrders(orders.map(order => order.id===orderId?
                                   <div className="flex-grow-1 ms-3">
                                     <CCardTitle>{item.title}</CCardTitle>
                                     <CCardText>
-                                      <span className="text-muted">${item.price.toFixed(2)}</span>
+                                      <span className="text-muted">{item.price.toFixed(2)} EUR</span>
                                       <br />
                                       {getD(item.details)}
                                     </CCardText>
@@ -155,7 +155,7 @@ setOrders(orders.map(order => order.id===orderId?
                                   <div className="flex-grow-1 ms-3">
 
                                     <CCardText>
-                                      ${(item.price * item.quantity).toFixed(2)}
+                                    {(item.price * item.quantity).toFixed(2)} EUR
                                     </CCardText>
                                   </div>
 
